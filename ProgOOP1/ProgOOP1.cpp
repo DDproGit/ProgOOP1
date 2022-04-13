@@ -5,7 +5,6 @@
 using namespace std;
 int main(int argc, char* argv[])
 {
-	//test commit
 	if (argc != 3)
 	{
 		cout << "incorrect command line! "
