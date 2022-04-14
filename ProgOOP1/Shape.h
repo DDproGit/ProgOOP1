@@ -7,6 +7,8 @@ class Shape
 {
 	float density;
 public:
+	Shape() { density = -1; };
+	~Shape() {};
 	float GetDensity();
 	static Shape* InShape(ifstream& ifst);
 	virtual void InData(ifstream& ifst) = 0; // ввод

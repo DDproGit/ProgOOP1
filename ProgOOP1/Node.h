@@ -6,6 +6,8 @@ class Node
 	Shape* sp;
 	Node* next;
 public:
+	Node() { sp = NULL; next = NULL; };
+	~Node() { delete sp; };
 	Shape* GetSp();
 	Node* GetNext();
 	void ChangeNext(Node* newNode);

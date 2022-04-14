@@ -11,8 +11,9 @@ void Container::Clear()
 		Node* temp = head;
 
 		head = head->GetNext();
-		delete temp->GetSp();
 		delete temp;
+		/*delete temp->GetSp();
+		delete temp;*/
 
 		size--;
 	}
