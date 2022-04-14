@@ -10,8 +10,8 @@ void Container::Clear()
 	{
 		Node* temp = head;
 
-		head = head->next;
-		delete temp->sp;
+		head = head->GetNext();
+		delete temp->GetSp();
 		delete temp;
 
 		size--;
@@ -23,9 +23,9 @@ Node* Container:: GetTail() {
 	else
 	{
 		Node* current = head;
-		while (current->next != NULL)
+		while (current->GetNext() != NULL)
 		{
-			current = current->next;
+			current = current->GetNext();
 		}
 		return current;
 	}
@@ -38,7 +38,7 @@ void Container::InsertAfter(Node* leftNode, Node* newNode) {
 	}
 	return newContainer;*/
 	if (leftNode != NULL)
-		leftNode->next = newNode;
+		leftNode->ChangeNext(newNode);
 	else
 		leftNode = newNode;
 }
@@ -71,9 +71,9 @@ void Container::Out(ofstream& ofst) {
 	for (int i = 0; i < length; i++) {
 		//container* pointer = c;
 		ofst << i << ": ";
-		pointer->sp->Out(ofst);
-		ofst << ", density = " << pointer->sp->density;
-		pointer = pointer->next;
+		pointer->GetSp()->Out(ofst);
+		ofst << ", density = " << pointer->GetSp()->GetDensity();
+		pointer = pointer->GetNext();
 		ofst << endl;
 	}
 }

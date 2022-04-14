@@ -20,3 +20,7 @@ Shape* Shape::InShape(ifstream& ifst)
 	sp->InData(ifst);
 	return sp;
 }
+float Shape::GetDensity()
+{
+	return density;
+}

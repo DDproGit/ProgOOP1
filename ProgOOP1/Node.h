@@ -3,9 +3,12 @@
 using namespace std;
 class Node
 {
-public:
 	Shape* sp;
 	Node* next;
+public:
+	Shape* GetSp();
+	Node* GetNext();
+	void ChangeNext(Node* newNode);
 	Node(Shape* sp=NULL, Node* next = NULL);
 };
 
