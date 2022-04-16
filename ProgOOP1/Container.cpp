@@ -107,7 +107,6 @@ void Container::Sort()
 		}
 	}
 }
-}
 void Container::OutBalls(ofstream& ofst) {
 	int length = this->GetLength();
 	ofst << "Only balls." << endl;
