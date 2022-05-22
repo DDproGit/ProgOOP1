@@ -18,6 +18,7 @@ public:
 	virtual void MultiMethod(Shape* other, ofstream& ofst) = 0;
 	virtual void MMBall(ofstream& ofst) = 0;
 	virtual void MMParal(ofstream& ofst) = 0;
+	virtual void MMTet(ofstream& ofst) = 0;
 	virtual float Volume() = 0;
 	bool Compare(Shape* second);
 	virtual void OutBalls(ofstream& ofst) {};

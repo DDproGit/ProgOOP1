@@ -11,7 +11,6 @@ float Parallelepiped::Volume()
 {
 	return this->a * this->b * this->c;
 }
-}
 void Parallelepiped::MultiMethod(Shape* other, ofstream& ofst)
 {
 	other->MMParal(ofst);
@@ -23,4 +22,8 @@ void Parallelepiped::MMBall(ofstream& ofst)
 void Parallelepiped::MMParal(ofstream& ofst)
 {
 	ofst << "We have two parallelepipeds" << endl;
+}
+void Parallelepiped::MMTet(ofstream& ofst)
+{
+	ofst << "1 tetrahedron, 2 parallelepiped" << endl;
 }

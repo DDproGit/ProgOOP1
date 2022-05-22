@@ -12,5 +12,6 @@ public:
 	void MultiMethod(Shape* other, ofstream& ofst);
 	void MMBall(ofstream& ofst);
 	void MMParal(ofstream& ofst);
+	void MMTet(ofstream& ofst);
 };
 

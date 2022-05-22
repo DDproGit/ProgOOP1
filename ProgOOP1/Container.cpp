@@ -87,7 +87,6 @@ void Container::Out(ofstream& ofst) {
 		pointer = pointer->GetNext();
 	}
 }
-}
 Node* Container::NodeAt(int x)
 {
 	Node* current = head;

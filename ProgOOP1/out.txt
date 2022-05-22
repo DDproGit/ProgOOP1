@@ -1,19 +1,42 @@
 Filled container. 
-Container contains 4 elements.
-0: It is Ball: r = 3, density = 3, melting point = 15, volume = 28.26
-1: It is Parallelepiped: a = 1, b = 2, c = 3, density = 6.13, melting point = 19, volume = 6
-2: It is Ball: r = 9, density = 5.6, melting point = 21, volume = 254.34
-3: It is Tetrahedron: a = 15, density = 9.9, melting point = 29, volume = 397.748
+Container contains 8 elements.
+0: It is Ball: r = 3, density = 3, melting point = 5, volume = 28.26
+1: It is Parallelepiped: a = 1, b = 2, c = 3, density = 6.13, melting point = 7, volume = 6
+2: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+3: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+4: It is Parallelepiped: a = 1, b = 2, c = 3, density = 6.13, melting point = 7, volume = 6
+5: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+6: It is Ball: r = 3, density = 3, melting point = 5, volume = 28.26
+7: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+Multimethod.
+One ball and one parallelepiped
+First is a parallelepiped, second is a tetrahedron
+2 tetrahedrons
+1 tetrahedron, 2 parallelepiped
+First is a parallelepiped, second is a tetrahedron
+1 tetrahedron, 2 ball
+One ball and one tetrahedron
 Only balls.
-Container contains 6 elements.
 0: It is Ball: r = 3, density = 3
-2: It is Ball: r = 9, density = 5.6
+6: It is Ball: r = 3, density = 3
 Sort container by volume. 
-Container contains 4 elements.
-0: It is Tetrahedron: a = 15, density = 9.9, melting point = 29, volume = 397.748
-1: It is Ball: r = 9, density = 5.6, melting point = 21, volume = 254.34
-2: It is Ball: r = 3, density = 3, melting point = 15, volume = 28.26
-3: It is Parallelepiped: a = 1, b = 2, c = 3, density = 6.13, melting point = 19, volume = 6
+Container contains 8 elements.
+0: It is Ball: r = 3, density = 3, melting point = 5, volume = 28.26
+1: It is Ball: r = 3, density = 3, melting point = 5, volume = 28.26
+2: It is Parallelepiped: a = 1, b = 2, c = 3, density = 6.13, melting point = 7, volume = 6
+3: It is Parallelepiped: a = 1, b = 2, c = 3, density = 6.13, melting point = 7, volume = 6
+4: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+5: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+6: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+7: It is Tetrahedron: a = 3, density = 3, melting point = 5, volume = 3.18198
+Multimethod.
+Two balls
+One ball and one parallelepiped
+We have two parallelepipeds
+First is a parallelepiped, second is a tetrahedron
+2 tetrahedrons
+2 tetrahedrons
+2 tetrahedrons
 Empty container. 
 Container contains 0 elements.
 Multimethod.
