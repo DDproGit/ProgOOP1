@@ -77,4 +77,11 @@ void Container::Out(ofstream& ofst) {
 		pointer = pointer->GetNext();
 		ofst << endl;
 	}
+	ofst << "Multimethod." << endl;
+	pointer = head;
+	for (int i = 0; i < length - 1; i++)
+	{
+		pointer->GetSp()->MultiMethod(pointer->GetNext()->GetSp(), ofst);
+		pointer = pointer->GetNext();
+	}
 }
